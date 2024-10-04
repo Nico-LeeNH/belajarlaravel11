@@ -6,11 +6,11 @@ Route::get('/', function () {
     return view('home', ['title' => 'Home Page']);
 });
 Route::get('/about', function () {
-    return view('about', ['title' => 'about']);
+    return view('about', ['nama'=> 'Nico','title' => 'about']);
 });
 Route::get('/blog', function () {
     return view('blog', ['title' => 'Blog']);
 });
 Route::get('/contact', function () {
-    return view('contact');
+    return view('contact', ['title' => 'contact']);
 });
