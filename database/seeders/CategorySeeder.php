@@ -17,5 +17,9 @@ class CategorySeeder extends Seeder
             'name' => 'belajar laravel 11',
             'slug' => 'new-laravel-11',
         ]);
+        Category::create([
+            'name' => 'Unknown',
+            'slug' => 'Unknown-1',
+        ]);
     }
 }
